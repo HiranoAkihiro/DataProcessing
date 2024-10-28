@@ -1,0 +1,9 @@
+*
+
+!.gitignore
+!/src/
+!/src/*.py
+!/notebook/
+!/notebook/*.ipynb
+!/numerical_data/
+!*.md
