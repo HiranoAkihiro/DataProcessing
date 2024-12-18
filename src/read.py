@@ -30,6 +30,19 @@ def get_filenames_list_exp(directory, fnamePattern):
     return file_names, n_files
 
 def read_files(directory, file_names):
+    '''
+    get_filenames等で作成されるファイル名のリストをもとに、
+    それらのファイルデータの読み込みを行う。
+    
+    ファイルデータは、
+    ```
+    (id) (data)
+    :
+    :
+    :
+    ```
+    の形式
+    '''
     all_data = []
 
     for file_name in file_names:
